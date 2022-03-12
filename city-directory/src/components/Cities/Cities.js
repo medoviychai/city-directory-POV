@@ -3,7 +3,22 @@ import './Cities.css';
 import {Link} from "react-router-dom";
 
 export default class Cities extends React.Component {
+   getCities = () => {
+      // console.log(filmName)
+      let link = `http://localhost:4000/cities`;
+      // console.log('link',link);
+      fetch(link)
+         .then((res) => res.json())
+         .then((data) => {
+            console.log(data);
+            // this.setState({filmInfo: data})
+         })
+         .catch((err) => console.log(err))
+  }
 
+  componentDidMount() {
+   this.getCities();
+  }
 
    render() {
       return(
