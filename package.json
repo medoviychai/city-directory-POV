@@ -1,0 +1,23 @@
+{
+  "name": "city-directory-pov",
+  "version": "1.0.0",
+  "description": "city directory to help people compare different cities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medoviychai/city-directory-POV.git"
+  },
+  "keywords": [
+    "city",
+    "directory"
+  ],
+  "author": "Maria Astafeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medoviychai/city-directory-POV/issues"
+  },
+  "homepage": "https://github.com/medoviychai/city-directory-POV#readme"
+}
