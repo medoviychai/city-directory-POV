@@ -7,7 +7,7 @@ footer {
 
    font-family: Nunito;
 
-   position: absolute;
+   position: fixed;
    bottom: 0;
    left: 0;
    right: 0;
@@ -15,7 +15,7 @@ footer {
 }
 
 .footer-icon {
-   width: 12vw;
+   width: 11vw;
 }
 
 .footer-button-active {
@@ -36,7 +36,7 @@ footer {
 }
 
 .footer-button:hover {
-   transform: translateY(-25px);
+   transform: translateY(-20px);
 }
 
 @media(min-width: 550px) {

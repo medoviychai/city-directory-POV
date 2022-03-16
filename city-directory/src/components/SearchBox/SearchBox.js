@@ -2,15 +2,64 @@ import React from "react";
 import './SearchBox.css';
 
 export default class SearchBox extends React.Component {
+   state = {
+      countOfCities: '',
+      inputCount: '',
+      cities: '',
+   }
+
+   handlerSubmitButton = (evt) => {
+      evt.preventDefault();
+   }
+
+   handleInputChange = (evt) => {
+      // console.log(evt.target.value);
+      this.setState({inputCount: evt.target.value});
+
+      this.getCountOfCities(evt.target.value);
+   }
+
+   getCountOfCities = (count) => {
+      let link = `http://localhost:4000/countofcities?count=${count}&offset=0`;
+      fetch(link)
+         .then((res) => res.json())
+         .then((data) => {
+            this.setState({countOfCities: data})
+            // console.log(this.state.countOfCities);
+         })
+         .catch((err) => console.log(err))
+   }
+
+   getAllCities = () => {
+      // console.log(filmName)
+      let link = `http://localhost:4000/cities`;
+      // console.log('link',link);
+      fetch(link)
+         .then((res) => res.json())
+         .then((data) => {
+            // console.log(data);
+            this.setState({cities: data})
+            // console.log(this.state.cities);
+         })
+         .catch((err) => console.log(err))
+  }
+
+//    findCity = () => {
+//       store.dispatch({
+//           type: 'FIND_CITY',
+//           payload: {cities: this.state.cities}
+//       })
+//   }
+
    render() {
       return (
             <div className='box-finder'>
                <div>
-                  <form>
+                  <form onSubmit={this.handlerSubmitButton}>
                      <input className='search-input' placeholder="Введите город"></input>
-                     <button className='finder-button'>
-                        <div className='button-img-box'>
-                           <img className='img-finder-button' src='https://cdn-icons.flaticon.com/png/512/2207/premium/2207590.png?token=exp=1646574483~hmac=1fd6003466b81885e37a59f00d47bc48'></img>
+                     <button  className='finder-button'>
+                        <div className='button-img-box' onClick={this.findCity}>
+                           <img className='img-finder-button' src='https://img.icons8.com/pastel-glyph/50/000000/search--v2.png'></img>
                            Искать
                         </div>
                      </button>
@@ -50,7 +99,7 @@ export default class SearchBox extends React.Component {
                </div>
                <div className="count-of-cities">
                   <label>Количество городов на странице:
-                     <input className='input_count-of-cities' type='number' min="1"></input>
+                     <input className='input_count-of-cities' onChange={this.handleInputChange} value={this.state.inputCount} type='number' min="1"></input>
                   </label>
                </div>
             </div>

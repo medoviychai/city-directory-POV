@@ -16,7 +16,7 @@ export default class MainPage extends React.Component {
             </div>
             <div className='description'>
                <div className="desc-img">
-                  <img src='https://cdn-icons.flaticon.com/png/512/2989/premium/2989542.png?token=exp=1646563875~hmac=a68fdcc9e07946e330bf3d70ec20209c'></img>
+                  <img src='https://img.icons8.com/pastel-glyph/50/000000/search--v2.png'></img>
                </div>
                <p>Вы можете воспользоваться удобным поиском и фильтрацией, чтобы сразу найти подходящий город, а можете просмотреть все города.</p>
             </div>

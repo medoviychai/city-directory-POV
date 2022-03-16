@@ -1,0 +1,39 @@
+.main-image {
+   width: 400px;
+   margin-right: 50px;
+}
+
+.wrap {
+   display: flex;
+   font-family: Nunito;
+   align-items: center;
+
+   margin: 40px 100px;
+}
+
+.main-box {
+   display: flex;
+   flex-direction: column;
+}
+
+.title-wrap {
+   display: flex;
+   gap: 15px;
+
+   justify-content: center;
+   align-items: center;
+}
+
+.main-logo {
+   width: 50px;
+   height: min-content;
+}
+
+.main-description {
+   width: 400px;
+}
+
+.box-of-city {
+   display: flex;
+   justify-content: center;
+}
