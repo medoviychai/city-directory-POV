@@ -110,3 +110,33 @@ li {
 
    margin: 20px 5px 0 0;
 }
+
+.count-of-cities-on-page {
+   margin-top: 5px;
+}
+
+@media(max-width: 550px) {
+   main {
+      padding-bottom: 20vw;
+   }
+}
+
+@media(max-width: 630px) {
+   .cities-box {
+      flex-direction: column;
+      flex-wrap: nowrap;
+
+      margin-top: 0;
+   }
+
+   .city-box {
+      width: 100%;
+   }
+}
+
+@media(max-width: 350px) {
+   .count-of-cities-on-page {
+      text-align: center;
+      margin-top: 10px;
+   }
+}
