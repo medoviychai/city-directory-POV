@@ -21,9 +21,9 @@ If you are thinking about moving, the information contained here will tell you t
 ### Features that have been implemented:
 - Page containing all cities and their brief description
 - Filtering by indicators
+- Choosing to display a specific number of cities on page
 - Single page for each city with more detailed information
 - Adding individual cities to the table for compare
-- Choosing to display a specific number of cities per page
 
 <hr>
 
