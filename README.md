@@ -25,7 +25,7 @@ If you are thinking about moving, the information contained here will tell you t
 - Adding individual cities to the table for compare
 - Choosing to display a specific number of cities per page
 
-====
+<hr>
 
 ## Build with
 - HTML
