@@ -6,9 +6,10 @@ The project is a catalog of Russian cities.
 If you are thinking about moving, the information contained here will tell you the conditions of living in different cities in Russia. 
 
 ### Build with
-<hr height='1'>
-HTML
-CSS
-JS (React)
-Node.js
-MySQL
+<ul>
+<li> HTML </li>
+<li> CSS </li>
+<li> JS (React) </li>
+<li> Server - Node.js </li>
+<li> Data Base - MySQL</li>
+</ul>
