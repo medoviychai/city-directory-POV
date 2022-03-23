@@ -25,8 +25,6 @@ If you are thinking about moving, the information contained here will tell you t
 - Single page for each city with more detailed information
 - Adding individual cities to the table for compare
 
-<hr>
-
 ## Build with
 - HTML
 - CSS
