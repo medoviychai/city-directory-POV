@@ -1,4 +1,4 @@
-# City directory POV  <img width ="10" src='https://cdn-icons.flaticon.com/png/512/1287/premium/1287899.png?token=exp=1648023829~hmac=23a17a3741b8e4f57eb6fde62208b0b2' />
+# City directory POV  <img width ="30" src='https://cdn-icons.flaticon.com/png/512/1287/premium/1287899.png?token=exp=1648023829~hmac=23a17a3741b8e4f57eb6fde62208b0b2' />
 ### Point Of View (SPA)
 
 The project is a catalog of Russian cities.
