@@ -26,8 +26,7 @@ If you are thinking about moving, the information contained here will tell you t
 - Adding individual cities to the table for compare
 
 ## Build with
-- HTML
-- CSS
+- HTML/CSS
 - React JS
 - [Server - Node.js](https://github.com/medoviychai/city-directory-server)
 - Data Base - MySQL
