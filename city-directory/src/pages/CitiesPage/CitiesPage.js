@@ -1,5 +1,4 @@
 import React from "react";
-import './CitiesPage.css';
 import Cities from "../../components/Cities/Cities";
 import SearchBox from '../../components/SearchBox/SearchBox';
 

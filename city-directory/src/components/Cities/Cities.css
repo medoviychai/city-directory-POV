@@ -1,142 +1,142 @@
 .cities-box {
-   margin: 20px 0 0 0;
-   display: flex;
-   flex-wrap: wrap;
-   font-size: 13px;
-   padding: 0;
-   gap: 10px;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  padding: 0;
+  gap: 10px;
 }
 
 .city-box {
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-   justify-content: space-between;
-   align-items: center;
-   width: 49%;
+  justify-content: space-between;
+  align-items: center;
+  width: 49%;
 
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
-.city-image {
-   height: min-content;
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-   object-position: 0 8;
-} 
 
 .image-box {
    width: 2000px;
    width: 100%;
    height: 250px;
+ }
+
+.city-image {
+  height: min-content;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 8;
 }
 
 .city-info {
-   margin: 0;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-}
-
-.city-description {
-   margin: 0 0 10px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .city-title {
    margin: 10px 0 0 0;
    align-self: flex-start;
+ }
+
+.city-description {
+  margin: 0 0 10px 0;
 }
 
 .city-link {
-   text-decoration: none;
-   background-image: linear-gradient(currentColor, currentColor);
-   background-position: 50% 100%;
-   background-repeat: no-repeat;
-   background-size: 0% 2px;
-   transition: background-size .3s;
-   width: fit-content;
-   font-size: 14px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  width: fit-content;
+  font-size: 14px;
 }
 
 .box {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .compare-button {
-   font-family: Nunito;
-   font-size: 15px;
-   box-sizing: border-box;
-   padding: 4px 10px;
-   border: 1px solid #fff;
-   border-radius: 50px;
-   background-color: #fff;
-   box-shadow: 0 4px 6px rgba(88, 94, 95, 0.1), 0 1px 3px rgb(0 0 0 / 8%);    
-   transition: box-shadow 0.2s;
-   cursor: pointer;
-   width: fit-content;
+  font-family: Nunito;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(88, 94, 95, 0.1), 0 1px 3px rgb(0 0 0 / 8%);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  width: fit-content;
 
-   align-self: center;
+  align-self: center;
 }
-   
+
 .compare-button:hover {
-   transition: all 0.2s;
-   box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
-   
+
 .compare-button:active {
-   background-color: #808080;
-   border: 1px solid #808080;
+  background-color: #808080;
+  border: 1px solid #808080;
 }
 
 li {
-   list-style: none;
+  list-style: none;
 }
 
 .page-flip-button {
-   font-family: Nunito;
-   font-size: 15px;
-   box-sizing: border-box;
-   padding: 4px 10px;
-   border: 1px solid #fff;
-   border-radius: 50px;
-   background-color: #fff;
-   box-shadow: 0 4px 6px rgba(88, 94, 95, 0.1), 0 1px 3px rgb(0 0 0 / 8%);    
-   transition: box-shadow 0.2s;
-   cursor: pointer;
-   width: fit-content;
+  font-family: Nunito;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(88, 94, 95, 0.1), 0 1px 3px rgb(0 0 0 / 8%);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  width: fit-content;
 
-   margin: 20px 5px 0 0;
+  margin: 20px 5px 0 0;
 }
 
 .count-of-cities-on-page {
-   margin-top: 5px;
+  margin-top: 5px;
 }
 
-@media(max-width: 550px) {
-   main {
-      padding-bottom: 20vw;
-   }
+@media (max-width: 550px) {
+  main {
+    padding-bottom: 20vw;
+  }
 }
 
-@media(max-width: 630px) {
-   .cities-box {
-      flex-direction: column;
-      flex-wrap: nowrap;
+@media (max-width: 630px) {
+  .cities-box {
+    flex-direction: column;
+    flex-wrap: nowrap;
 
-      margin-top: 0;
-   }
+    margin-top: 0;
+  }
 
-   .city-box {
-      width: 100%;
-   }
+  .city-box {
+    width: 100%;
+  }
 }
 
-@media(max-width: 350px) {
-   .count-of-cities-on-page {
-      text-align: center;
-      margin-top: 10px;
-   }
+@media (max-width: 350px) {
+  .count-of-cities-on-page {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
